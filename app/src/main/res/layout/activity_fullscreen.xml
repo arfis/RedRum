@@ -15,7 +15,7 @@
          android:fitsSystemWindows. -->
     <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
         android:fitsSystemWindows="true"
-        android:background="#ff8dff54">
+        android:background="#fffffa79">
 
         <LinearLayout android:id="@+id/fullscreen_content_controls" style="?metaButtonBarStyle"
             android:layout_width="match_parent" android:layout_height="wrap_content"
@@ -37,7 +37,8 @@
                 android:id="@+id/chatName"
                 android:layout_gravity="center"
                 android:background="#ffc2cfff"
-                android:text="Enter your chat name"
+                android:text=""
+                android:hint="Enter your name here, you piece of shit!"
                 android:gravity="center_vertical" />
 
             <Button android:id="@+id/login_button" style="?metaButtonBarButtonStyle"
