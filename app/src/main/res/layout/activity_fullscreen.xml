@@ -38,7 +38,7 @@
                 android:layout_gravity="center"
                 android:background="#ffc2cfff"
                 android:text=""
-                android:hint="Enter your name here, you piece of shit!"
+                android:hint="Enter your name"
                 android:gravity="center_vertical" />
 
             <Button android:id="@+id/login_button" style="?metaButtonBarButtonStyle"

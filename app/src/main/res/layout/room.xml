@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:weightSum="1">
 
     <RelativeLayout
         android:layout_width="fill_parent"
@@ -17,8 +18,22 @@
             android:layout_centerHorizontal="true" />
     </RelativeLayout>
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="fill_parent"
-        android:layout_height="471dp"></LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="318dp"
+            android:layout_height="41dp"
+            android:id="@+id/PeerCountText"
+            android:layout_gravity="center_horizontal|top"
+            android:text="Number of available peers:" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="327dp"
+            android:id="@+id/listView"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
 </LinearLayout>
